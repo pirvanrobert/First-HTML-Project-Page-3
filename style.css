@@ -198,10 +198,8 @@ body{
     border-width: 3px;
     border-image: linear-gradient(90deg, #00F0FF 100%, #5773FF 100%, #FF007A 100%) 1;  
     background: #1F1B42;
-    border-radius: 30px;
-    width:150px;
-    height: auto;
-    padding: 24px 24px 32px 24px;
+    border-radius: 30px;    
+    height: auto;    
     width: 150px;
     height:130px;
     padding: 50px 30px;       
@@ -219,6 +217,52 @@ body{
 .card-wrapper{
     margin:40px
 }
+
+.section-4 h2{
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 50px;
+    background: linear-gradient(90deg, #00F0FF 32%, #5773FF 53.87%, #FF007A 59.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin:0;
+    text-align:center;
+
+}
+
+.section-4 p{
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;  
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.section-4 h4{
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 20px;  
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+#laptop-img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#video-button{
+    position: absolute;
+    width: 10%;
+    height: auto;
+    transform: translate(-435%, 200%);
+
+}
+
+
+
 
 
 
@@ -287,7 +331,7 @@ body{
     }
 
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 840px){
     .section-1{
         display: flex;
         flex-direction: column;
